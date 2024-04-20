@@ -1,0 +1,106 @@
+body {
+    background-image: url('images/centralperk.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 240px;
+}
+
+label,
+select,
+input[type="submit"] {
+    margin: 5px;
+}
+
+p {
+    margin-top: 0px;
+}
+.instructions {
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 200px; 
+    margin-left: 60px; 
+    align-content: center;
+    background-color: #f24b38;
+    padding: 10px;
+    border-radius: 3px;
+    border: 3px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.options {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.option {
+    margin: 0 auto; 
+}
+
+.logo {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 0px; 
+    margin-left: 40px; 
+    align-content: center;
+}
+
+.result-container {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    padding-left: 20px; 
+    padding-right: 20px; 
+    border-radius: 5px; 
+}
+
+.choice {
+    margin: 0 20px; 
+}
+
+.user-choice {
+    background-color: #02b1f3; 
+    padding: 20px; 
+    border-radius: 3px; 
+    border: 3px solid ivory;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.computer-choice {
+    background-color: #f4ca3c; 
+    padding: 20px; 
+    border-radius: 3px; 
+    border: 3px solid ivory;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.result-message {
+    background-color:#654d88; 
+    color: #f4ca3c; 
+    border: 3px solid #f4ca3c;
+    border-radius: 5px; 
+    font-weight: bold; 
+    text-align: center; 
+    font-size: 22px; 
+    padding-top:15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+}
